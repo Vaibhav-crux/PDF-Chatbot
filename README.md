@@ -45,10 +45,6 @@ A Streamlit-based chatbot that extracts text from uploaded PDFs and uses Google'
 ![Response Based on PDF Text](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/f7bf9741-3f11-43af-9015-f1762f0f2f4d)
 
 
-## Contributing
-
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before getting started.
-
 ## License
 
 This project does not have a specific license.
