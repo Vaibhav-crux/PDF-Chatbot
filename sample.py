@@ -8,7 +8,7 @@ import google.generativeai as genai
 # Load environment variables
 load_dotenv()
 
-GOOGLE_API_KEY = "AIzaSyCvEsb6RYKpdeIMmeOlEP8Gn910H5BocsY"
+GOOGLE_API_KEY = ""
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
