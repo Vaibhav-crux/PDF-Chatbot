@@ -34,18 +34,16 @@ A Streamlit-based chatbot that extracts text from uploaded PDFs and uses Google'
 
 ## Screenshots
 
-![Main Window](![Screenshot_13-4-2024_21848_localhost](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/68365f75-85a4-4c9d-b70d-cf48c3497402))
+![Main Window](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/68365f75-85a4-4c9d-b70d-cf48c3497402)
 
-![Uploading PDF](![Screenshot_13-4-2024_2194_localhost](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/ad1c1a6d-fd5c-4736-9e2e-3991991dca61))
+![Uploading PDF](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/ad1c1a6d-fd5c-4736-9e2e-3991991dca61)
 
-![PDF Processed](![Screenshot_13-4-2024_21918_localhost](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/c9ea6d01-48a3-439e-aa12-c38cbc557951))
+![PDF Processed](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/c9ea6d01-48a3-439e-aa12-c38cbc557951)
 
-![Analyzing Prompt](![Screenshot_13-4-2024_21954_localhost](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/f3f203db-0f16-428c-9a7d-501a49449089))
+![Analyzing Prompt](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/f3f203db-0f16-428c-9a7d-501a49449089)
 
-![Response Based on PDF Text](![Screenshot_13-4-2024_211020_localhost](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/f7bf9741-3f11-43af-9015-f1762f0f2f4d))
+![Response Based on PDF Text](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/f7bf9741-3f11-43af-9015-f1762f0f2f4d)
 
-
-![Chat with PDF](path/to/chat_with_pdf_screenshot.png)
 
 ## Contributing
 
