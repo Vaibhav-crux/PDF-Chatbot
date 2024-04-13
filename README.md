@@ -15,7 +15,7 @@ A Streamlit-based chatbot that extracts text from uploaded PDFs and uses Google'
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/PDF-Chatbot.git
+   git clone https://github.com/yourusername/PDF-Chatbot.git](https://github.com/Vaibhav-crux/PDF-Chatbot.git
    ```
 2. Install the required Python packages:
    ```
