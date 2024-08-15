@@ -1,108 +1,50 @@
-# Chat with PDF
+# PDF-Chatbot
 
-## Overview
+## Description
 
-"Chat with PDF" is a web application that allows users to upload PDF documents, extract their text, and interact with the content through a chat interface. The application uses Streamlit for the frontend, a FastAPI-like approach for structuring the backend, and SQLite for storing extracted text. It also integrates with Google's Gemini API to generate responses based on the PDF content and user queries.
+A Streamlit-based chatbot that extracts text from uploaded PDFs and uses Google's Generative AI to generate responses to user queries, enhancing document understanding and interaction.
 
 ## Features
 
-- **PDF Upload**: Upload and process PDF documents to extract text.
-- **Text Storage**: Extracted text is stored in a SQLite database.
-- **Chat Interface**: Ask questions about the uploaded PDF and get responses based on the content.
-- **API Integration**: Uses Google’s Gemini API for generating AI-driven responses.
-
-## Project Structure
-
-```plaintext
-pdf_chat/
-│
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── config.py
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── database.py
-│   │   └── chat_handler.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   └── pdf_processing.py
-│   ├── static/
-│   │   └── styles.css
-│   └── templates/
-│       └── layout.html
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_pdf_processing.py
-│   ├── test_database.py
-│   ├── test_chat_handler.py
-│   └── test_main.py
-│
-├── .env
-├── pdf_text.db
-├── requirements.txt
-└── README.md
-```
+- Extracts text from PDF documents.
+- Utilizes Google's Generative AI for content generation.
+- Interactive UI for uploading PDFs and querying the chatbot.
+- Stores extracted text in a SQLite database for efficient querying.
 
 ## Installation
 
-### Prerequisites
-
-- Python 3.8+
-- A Google API Key for the Gemini API
-
-### Setup Instructions
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/your-username/chat-with-pdf.git
-    cd chat-with-pdf
-    ```
-
-2. **Set up a virtual environment**:
-
-    ```bash
-    python -m venv env
-    source env/bin/activate  # On Windows: env\Scripts\activate
-    ```
-
-3. **Install the required packages**:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Set up environment variables**:
-
-    - Create a `.env` file in the root directory and add your Google API key.
-
-    ```plaintext
-    GOOGLE_API_KEY=your_google_api_key_here
-    ```
-
-5. **Run the application**:
-
-    ```bash
-    streamlit run app/main.py
-    ```
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/PDF-Chatbot.git](https://github.com/Vaibhav-crux/PDF-Chatbot.git
+   ```
+2. Install the required Python packages:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Set up your environment variables (e.g., `GOOGLE_API_KEY`).
 
 ## Usage
 
-- Open the Streamlit app in your web browser.
-- Upload a PDF file using the sidebar.
-- Once processed, ask questions related to the content of the PDF.
-- The AI will generate responses based on the extracted text.
+1. Run the Streamlit app:
+   ```
+   streamlit run app.py
+   ```
+2. Upload a PDF document.
+3. Ask a question about the document.
 
-## Testing
+## Screenshots
 
-To run tests for different modules:
+### Main Window
+![Main Window](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/68365f75-85a4-4c9d-b70d-cf48c3497402)
 
-```bash
-python -m unittest discover tests
-```
+### Uploading PDF
+![Uploading PDF](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/ad1c1a6d-fd5c-4736-9e2e-3991991dca61)
 
-## Contributing
+### PDF Processed
+![PDF Processed](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/c9ea6d01-48a3-439e-aa12-c38cbc557951)
 
-Contributions are welcome! If you would like to contribute, please fork the repository and submit a pull request. 
+### Analyzing Prompt
+![Analyzing Prompt](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/f3f203db-0f16-428c-9a7d-501a49449089)
+
+### Response Based on PDF Text
+![Response Based on PDF Text](https://github.com/Vaibhav-crux/PDF-Chatbot/assets/122672330/f7bf9741-3f11-43af-9015-f1762f0f2f4d)
