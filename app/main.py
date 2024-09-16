@@ -1,3 +1,5 @@
+# Init the code
+
 import streamlit as st
 from utility.pdf_processing import get_pdf_text
 from models.database import save_to_database
